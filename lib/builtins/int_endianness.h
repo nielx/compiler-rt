@@ -82,7 +82,7 @@
 
 /* .. */
 
-#if defined(__linux__)
+#if defined(__linux__) || defined(__HAIKU__)
 #include <endian.h>
 
 #if __BYTE_ORDER == __BIG_ENDIAN
